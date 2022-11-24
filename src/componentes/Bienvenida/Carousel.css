@@ -1,0 +1,15 @@
+.contenedorCarousel img {
+    height: 90vh;
+    width: 5vh;
+    border:   0.4rem    solid rgba(205, 216, 216, 0.322);
+    
+}
+
+.carousel-caption p,h5{
+    font-family:'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:rgba(208, 214, 235, 0.288);
+    color:  rgb(0, 0, 0);
+    font-weight:bold;
+  font-size: 20px;
+ 
+}

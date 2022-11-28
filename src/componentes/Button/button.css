@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -6,22 +6,24 @@
     font-family:'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+ */
 
 
-
-.customButton{
-    width:110px;
-    height: 30px;
+.customButtonn{
+ 
+    width:130px;
+    height: 2px;
     text-align:center;
-    padding-top: 1px;
+    padding-bottom: 1.6rem;
+   padding-top:0.1REM;
 
     border-radius: 30px;
     border-color: rgba(0, 0, 0, 0.171);
 
     box-shadow: none;
-    font-size: 1.2rem;
+    font-size: 1px;
 
     margin: 1.5rem;
-    cursor: pointer;
+    cursor:pointer;
 }
 

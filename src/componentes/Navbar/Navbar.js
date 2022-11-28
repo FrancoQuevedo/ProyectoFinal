@@ -7,10 +7,10 @@ import logo from './logo2.jpg'
 
 const Menu = () => {
 
-  return (
+  return ( 
     <header >
 
-      <Navbar className="navbarEdit" expand="lg" >
+      <Navbar className="navbarEdit" expand="lg"  >
         <Container className="contaninerEdit">
         <Navbar.Brand className="logoEdit">
           <div className="logoEdit">

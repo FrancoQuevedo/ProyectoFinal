@@ -1,16 +1,17 @@
 
-.navbarEdit{
+ * {
+    box-sizing: border-box;
+    font-variant-caps: petite-caps;
+    font-size: 20px;
+margin: 0%;
+padding: 0%;
 
-background-image: linear-gradient(to  left,#f5f6f7,#a6acadd2,#fffffffb );
-font-size: 20px;
-height: 56px;
 }
-.logoEdit{
-    background-color:rgba(211, 220, 223, 0.199) ;
-/* margin: 2px; */
-padding: 1px;
-margin-right: 15px;
 
-
-
+ .navbarEdit{
+    font-weight:bolder;
+    background-image: linear-gradient(to  left,#f2f4f7,#f1fafc,#f5eeee0a );
+    background-color: rgba(7, 5, 5, 0.274);
+    height: auto;
+font-variant-caps: petite-caps;
 }

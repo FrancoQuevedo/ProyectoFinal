@@ -8,21 +8,20 @@ import Personajes from './componentes/Personajes/Personajes';
 import Navbar from './componentes/Navbar/Navbar';
 import Home from './componentes/Header/Header';
 import Ejemplo from './componentes/Ejemplo/Ejemplo';
-
+/* import Carousell from './componentes/Bienvenida/CarouselBootstrap'; */
 
 
 
 function App() {
   return (
 <BrowserRouter>
-
-<Navbar/> 
+ 
+<Navbar/>
 
 <Switch> 
-
+ 
         <Route exact path="/">
-      <Home/> 
-   
+  <Home/>
        </Route>
         <Route exact path="/contacto1" >     
           <Contacto/>
@@ -45,10 +44,10 @@ function App() {
     <div className="App">
  <Footerr/>
  </div>
- <Switch>
+  <Switch>
  <Route exact path="/" >     
     </Route>
- </Switch>
+ </Switch> 
 
 </BrowserRouter>
 

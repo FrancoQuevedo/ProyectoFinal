@@ -25,11 +25,11 @@ const Footerr = () => {
           <div className="col">
           <h4>Encontranos</h4>
             <div className="list-unstyled" >
-              <NavLink   to='https://www.youtube.com/watch?v=K0a3NIxABFA' target="_blank" className="list-unstyled"  style={{fontSize:"2rem"  ,margin:"5px", background:"rgba(0, 0, 0, 0.500)"}}> <img  src= {Whats} alt="logo" width='32'/></NavLink>
+              <NavLink   to='https://www.youtube.com/watch?v=K0a3NIxABFA' target="_blank" className="list-unstyled"  style={{fontSize:"1.2rem"  ,margin:"5px", background:"rgba(0, 0, 0, 0.500)"}}> <img  src= {Whats} alt="logo" width='32'/></NavLink>
 
-              <NavLink   className="list-unstyled" style={{fontSize:"2rem"  ,margin:"5px", background:"rgba(0, 0, 0, 0.500)"}}to='/'><img src= {Face} alt="logo" width='32' /></NavLink>
+              <NavLink   className="list-unstyled" style={{fontSize:"1.2rem"  ,margin:"5px", background:"rgba(0, 0, 0, 0.500)"}}to='/'><img src= {Face} alt="logo" width='32' /></NavLink>
 
-             <NavLink  className="list-unstyled" style={{fontSize:"2rem"  ,margin:"5px",background:"rgba(0, 0, 0, 0.500)"}} to='/'><img src= {Insta} alt="logo" width='32' /></NavLink>
+             <NavLink  className="list-unstyled" style={{fontSize:"1.22rem"  ,margin:"5px",background:"rgba(0, 0, 0, 0.500)"}} to='/'><img src= {Insta} alt="logo" width='32' /></NavLink>
             </div>
           
           </div>

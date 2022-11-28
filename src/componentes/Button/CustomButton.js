@@ -7,8 +7,8 @@ import { Button } from 'react-bootstrap'
 const CustomButton = ({ texto }) =>{
     return(
 
-<Button className="customButton" style={{ backgroundColor:"WHITE"}}>
- <a href='/'  style={{ textDecoration:"none", color:" rgba(0, 0, 0, 0.589)"}}  >{ texto=" Ir  Arriba"  } </a> 
+<Button className="customButtonn" style={{ backgroundColor:"WHITE"}}>
+ <a href='/'  style={{ textDecoration:"none", color:" rgba(0, 0, 0, 0.589)"}}  >{ texto="Ir Arriba"  } </a> 
   </Button>
 
     )

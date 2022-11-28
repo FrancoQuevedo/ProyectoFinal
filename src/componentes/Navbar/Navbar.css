@@ -1,10 +1,16 @@
+
 .navbarEdit{
 
-background-image: linear-gradient(to  left,#f5f6f7,#a6acad9f,#fffffffb );
+background-image: linear-gradient(to  left,#f5f6f7,#a6acadd2,#fffffffb );
 font-size: 20px;
+height: 56px;
+}
+.logoEdit{
+    background-color:rgba(211, 220, 223, 0.199) ;
+/* margin: 2px; */
+padding: 1px;
+margin-right: 15px;
+
 
 
 }
-
-
-

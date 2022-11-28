@@ -24,7 +24,7 @@ function App() {
       <Home/> 
    
        </Route>
-        <Route exact path="/contacto1">     
+        <Route exact path="/contacto1" >     
           <Contacto/>
 
 
@@ -35,18 +35,20 @@ function App() {
           </Route>
         <Route exact path="/Ejemplo">
 <Ejemplo/>
+
 </Route>
-   
+
+
       </Switch> 
       
 
     <div className="App">
-
-     
-     
-     <Footerr/>
-
-    </div>
+ <Footerr/>
+ </div>
+ <Switch>
+ <Route exact path="/" >     
+    </Route>
+ </Switch>
 
 </BrowserRouter>
 

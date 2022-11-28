@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import  portada  from './img/portada2.jpg';
-import  portada1  from './img/portada1.jpg';
-import  portada2  from './img/portada2.jpg';
-import './Carousel.css'
+import  portada  from './img/principal.jpg';
+import  prueba1  from './img/prueba1.jpg';
+import  prueba2  from './img/prueba3';
+import './Carousel.css' 
 
 export default function Carousell() {
   return (
@@ -12,34 +12,31 @@ export default function Carousell() {
       <Carousel variant="dark">
         <Carousel.Item> 
           <img className="d-block w-100 "  src={portada} alt=" PRIMER NIVEL"/>
-
-          <Carousel.Caption>
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={portada1}
+            src={prueba1}
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h5>' Los Andes Boutique Hotel '</h5>
+            <p>Multiples complejos full categoria con accesos libres al "Lago Escondido" </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={portada2}
+            src={prueba2}
             alt="Third slide"
           />
-          <Carousel.Caption>
-            <h5>Third slide label</h5>
+          <Carousel.Caption className='imgEdit'>
+            
+            <h6>Actividades, Aventuras y Desafios </h6>
+            <h7> -Kayak en el Lago del Desierto- </h7>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            Una excursión de día, super completa para remar en este fantástico lago de aguas turquesas rodeado de un bosque nativo y maravillosas vistas de los cerros y glaciares.  </p>
+           
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

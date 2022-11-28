@@ -19,7 +19,7 @@ const Intro = ({ titulo, backgroundcolor}) => {
    
 {/*    <h1> {titulo} </h1> */}
 
-   <h1> ' Los Andes Boutique Hotel '</h1>
+   <h1> ' De  Los Andes Hotel '</h1>
    <div className='textoConteiner'>
          <p> Los Andes es el hotel más emblemático del Chaltén. Su ubicación estratégica en la zona más elevada del pueblo, permite obtener vistas únicas del Valle del Río de las Vueltas. A su vez, se encuentra a pocos metros de los puntos de inicio de los principales senderos y recorridos.
 Las habitaciones y áreas públicas son espaciosas y están decoradas de manera clásica, en sintonía con el increíble entorno natural y sus impactantes paisajes.

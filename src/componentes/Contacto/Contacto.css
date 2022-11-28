@@ -1,0 +1,97 @@
+
+
+.formularioContainer{
+    background-color: rgba(2, 2, 2, 0.205);
+    width:65%;
+   margin: auto;
+    height: auto;
+    border: 2.2px solid  rgba(241, 241, 237, 0.767);
+
+   
+    }
+    
+  
+    .titleContainer h1{
+      text-align: center;
+      color: rgba(34, 31, 31, 0.527);
+
+    }
+  
+    
+    .main{
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+
+    
+    }
+
+    .formRegister{
+    
+      width:280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:0.5vh;
+  
+    }
+    
+    input{
+background-color:rgb(255, 255, 255);
+border-radius: 7px;
+width: 20rem;
+
+    }
+    .textContainerform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap:20px;
+
+    }
+    .textContainerform p a{
+    font-weight: bold; 
+    color: #000000cb;
+
+    }
+    
+    .errorText{
+    color:white ;
+    text-align: center;
+ 
+    
+    }
+    
+    .editCampos{
+        display: flex;
+        
+ 
+        gap:22px;
+        padding: 20px 3px; 
+        width: 4rem;
+        height: 4rem;
+      
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+.submit{
+    padding: 10px;
+    background-color: rgb(143, 145, 117);
+    color: rgb(243, 233, 233);
+    border: 1px soild white;
+    }
+    .submit:hover{
+      transition: 0.5s all;
+      background-color: rgb(218, 209, 209);
+      border: 1px solid rgb(179, 6, 6);
+      color: rgb(3, 3, 3);
+  }

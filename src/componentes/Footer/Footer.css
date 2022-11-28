@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+
+
+
+.main-footer {
+    background-image: linear-gradient(to left, #f5f6f7, #e2eaec8e, #fffffffb);
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.336);
+
+    position: static;
+    gap: 90px;
+
+
+    }
+
+    .container h1{
+
+        font-size:15px;
+    }

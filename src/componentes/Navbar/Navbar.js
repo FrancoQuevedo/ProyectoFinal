@@ -1,27 +1,33 @@
 import React from "react";
 import "./Navbar.css";
-import {Container,Nav,Navbar,NavDropdown} from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 /* import Ejemplo from './componentes/Ejemplo/Ejemplo'; */
+import logo from './logo2.jpg'
 
 
+const Menu = () => {
 
-const Menu =()=> {
+  return (
+    <header >
 
-return ( 
-<header >
-
-<Navbar className="navbarEdit"    expand="lg" >
-      <Container className="contaninerEdit">
-        <Navbar.Brand href="https://www.clima.com/argentina?gclid=Cj0KCQjwj7CZBhDHARIsAPPWv3ffgD1ZkGq6eftQY7iYkzzhN7E8fGQdGteWR_egArTdbs3PbIkWJj8aAnrfEALw_wcB" target= "_blank"> Clima</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/"> Home </Nav.Link>
-            {/* <Nav.Link href= "/https://www.google.com.ar/maps" target= "_blank">Link</Nav.Link> */}
-            <Nav.Link href="Contacto1">Contacto</Nav.Link>
-            <Nav.Link href="Ejemplo">Ejemplo</Nav.Link> 
-            <Nav.Link href="/Personajes">Personajes</Nav.Link>
-          {/*   <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+      <Navbar className="navbarEdit" expand="lg" >
+        <Container className="contaninerEdit">
+        <Navbar.Brand className="logoEdit">
+          <div className="logoEdit">
+        <img src= {logo} alt="logo" expand="medium" width='80' height='44'/> 
+        </div>
+        </Navbar.Brand> 
+       
+          {/* <Navbar.Brand href="https://www.clima.com/argentina?gclid=Cj0KCQjwj7CZBhDHARIsAPPWv3ffgD1ZkGq6eftQY7iYkzzhN7E8fGQdGteWR_egArTdbs3PbIkWJj8aAnrfEALw_wcB" target="_blank"> Clima</Navbar.Brand> */}
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/"> Home </Nav.Link>
+              {/* <Nav.Link href= "/https://www.google.com.ar/maps" target= "_blank">Link</Nav.Link> */}
+              <Nav.Link href='Contacto1' >Contacto</Nav.Link>
+              <Nav.Link href="Ejemplo">Ejemplo</Nav.Link>
+              <Nav.Link href="/Personajes">Personajes</Nav.Link>
+              {/*   <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -32,11 +38,11 @@ return (
                 Separated link
               </NavDropdown.Item>
             </NavDropdown> */}
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-    
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
     </header>
   );
 

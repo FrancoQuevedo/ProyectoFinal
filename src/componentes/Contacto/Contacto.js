@@ -10,11 +10,16 @@ const onSubmit = (data) =>{
 
   return ( 
 
-<>
-<h2> Formulario </h2>
-<div className="nombre"> Nombre: {watch ('nombre')}</div>
-<form onSubmit={handleSubmit(onSubmit)} >
-  <div>
+
+<div className="formularioContainer"> 
+<div className="titleContainer">
+                    <h1>Consultas /Reservas</h1>
+                    </div>
+                    <main className="main">
+<form  className="formRegister"onSubmit={handleSubmit(onSubmit)} >
+<div className="editCampos">Nombre: {watch ('nombre')}</div>
+
+  
     <label> Nombre </label>
     <input type="text" {...register('nombre', {
       required:true,
@@ -27,39 +32,55 @@ const onSubmit = (data) =>{
     }
     
 
-  </div>
+ 
+
   <div>
+  <div className="editCampos">Apellido: {watch ('apellido')}</div>
+
     <label> Apellido </label>
     <input type="text" {...register('apellido',{ required:true
     
     })} />
   </div>
+
+
   <div>
+  <div className="editCampos"> Ingrese su Mail: {watch ('apellido')}</div>
+
     <label> Email </label>
     <input type="text" {...register('email', {
       pattern: /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
     })} />
 
-
 {errors.email?.type === 'pattern' && <p> El formato es incorrecto </p>
     }
   </div>
+
+
   <div>
-    <label> Gusto de helado </label>
+    <label> Seleccione Habitacion </label>
     <select {...register('sabor')}>
-      <option value="ch"> Chocolate </option>
-      <option value="dl"> Dulce de leche </option>
-      <option value="lm"> Limon </option>
+      <option value="st"> Standar</option>
+      <option value="md"> Medium </option>
+      <option value="pm"> Premium </option>
 
     </select>
   </div>
-  <input type="submit" value="Enviar" />
+  <input type="submit" value="Enviar"  className="submit" />
+
+
+  <div className="textContainerform">
+                    <p> ¿ Ya reservaste? <a href="#">No dudes en Consultarnos.</a></p>
+                    <p class="errorText">Si se produce un error al completar el formulario aparecera un mensaje aqui.</p>
+                    
+                    </div>
   
+
 </form>
 
 
-
-</>
+</main>
+</div>
 
 
 );

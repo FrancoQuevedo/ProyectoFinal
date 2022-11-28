@@ -1,15 +1,29 @@
-.contenedorCarousel img {
-    height: 74vh;
-    width: 5vh;
-    border:   0.4rem    solid rgba(205, 216, 216, 0.322);
-    
+* {
+    box-sizing: border-box;
+    font-family:serif;
 }
 
-.carousel-caption p,h5{
-    font-family:'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color:rgba(208, 214, 235, 0.288);
-    color:  rgb(0, 0, 0);
-    font-weight:bold;
-  font-size: 20px;
- 
+.contenedorCarousel img {
+    height: 83.5vh;
+    width: auto;
+    border-top: 0.25rem solid rgba(205, 216, 216, 0.322);
+
 }
+
+.carousel-caption p,
+h5 {
+    font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(208, 214, 235, 0.116);
+    color: rgb(252, 245, 245);
+    font-weight: bold;
+    font-size: 23Px;
+}
+ .imgEit p ,h6 ,h7 {
+font-size: 22px;
+color:white;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imgEdit{
+ background-color: rgba(0, 0, 0, 0.185);
+} 

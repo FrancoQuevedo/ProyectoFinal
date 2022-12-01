@@ -1,7 +1,5 @@
 import React from 'react';
 import './Intro.css';
-/* import Portada from './portada.jpg'; */
-import CustomButton from '../Button/CustomButton';
 
 
 
@@ -14,10 +12,7 @@ const Intro = ({ titulo, backgroundcolor}) => {
      <div className='conteinerIntro'>
 
     
-    {/* <img  src={Portada} className="icon" alt="Foto portada "/> */}
-   
-   
-{/*    <h1> {titulo} </h1> */}
+
 
    <h1> ' De  Los Andes Hotel '</h1>
    <div className='textoConteiner'>

@@ -15,16 +15,18 @@
 h5 {
     font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgba(208, 214, 235, 0.116);
-    color: rgb(252, 245, 245);
+    color: rgba(252, 245, 245, 0.918);
     font-weight: bold;
     font-size: 23Px;
 }
  .imgEit p ,h6 ,h7 {
 font-size: 22px;
-color:white;
+color:rgb(255, 255, 255);
 font-weight: bold;
 font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .imgEdit{
- background-color: rgba(0, 0, 0, 0.185);
+ background-color: rgba(0, 0, 0, 0.089);
+ width: 60rem;
+ text-align: center;
 } 

@@ -1,4 +1,4 @@
-/* *{
+ *{
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -6,24 +6,29 @@
     font-family:'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
- */
 
 
-.customButtonn{
- 
-    width:130px;
+
+.customButtonn {
+
+    background-color: white;
+    text-align: center;
+
+    width: 140px;
     height: 2px;
-    text-align:center;
+    text-align: center;
     padding-bottom: 1.6rem;
-   padding-top:0.1REM;
-
+    padding-top: 0.1REM;
     border-radius: 30px;
-    border-color: rgba(0, 0, 0, 0.171);
-
+    border-color: rgba(197, 7, 7, 0.171);
     box-shadow: none;
     font-size: 1px;
-
     margin: 1.5rem;
-    cursor:pointer;
 }
 
+.customButtonn:hover{
+
+    transition: 0.5s all;
+    background-color: rgba(132, 132, 150, 0);
+    border: 2px solid rgba(17, 8, 8, 0.116);
+}

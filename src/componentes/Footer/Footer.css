@@ -1,29 +1,30 @@
 * {
     box-sizing: border-box;
-    font-family:sans-serif;
-    text-decoration: none;
+    font-family: sans-serif;
+
 }
 
 
 
 .main-footer {
-    background-image: linear-gradient(to left, #f5f6f7, #e2eaec8e, #fffffffb);
+    background-image: linear-gradient(to left, #f5f6f7, #02531a56, #fffffffb);
+
     font-size: 15px;
     color: rgba(0, 0, 0, 0.842);
 
     position: static;
     gap: 90px;
 
+}
 
-    }
+.container ul,
+li {
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 15px;
+}
 
-    .container ul,li{
-color: rgba(0, 0, 0, 0.705);
-        font-size:15px;
-    }
+.col-sm {
 
-    .col-sm{
-
-color:rgba(0, 0, 0, 0.692);
-font-size: 15.5px;
-    }
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 15.5px;
+}

@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding: 0;
+border-radius: 0px;
+
+}
+
+.conteinerGastronomia {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    margin: 5px;
+    width: auto;
+ /*    height: auto; */
+}
+.conteinerGastronomia {
+width: auto;
+height:auto;
+padding-top: 0px;
+padding-bottom: 10px;
+margin: 4px;
+margin-left: 0%;
+margin-right: 0%;
+border-radius: 0px;
+}
+.conteiner img{
+margin-bottom: 20px;
+width: 196.4vh;
+height: 33rem;
+
+
+
+
+
+}
+
+
+.textoConteiner {
+
+    height: auto;
+    background-color: rgba(227, 240, 240, 0);
+    font-size: large;
+
+    text-align: center;
+    font-size: 16.7px;
+    line-height: 2.3;
+    letter-spacing: 2.5px;
+    color: #0c0c0c98;
+    width: 67rem;
+
+}
+
+.buttonEdit:hover{
+    transition: 0.5s all;
+    background-color: rgb(11, 11, 241);
+    border: 2px solid rgba(216, 8, 8, 0.315);
+ 
+
+}
+
+.buttonEdit {
+
+    background-color: rgb(247, 236, 236);
+    text-align: center;
+
+    width: 130px;
+    height: 2px;
+    text-align: center;
+    padding-bottom: 1.6rem;
+    padding-top: 0.1REM;
+    border-radius: 30px;
+    border-color: rgba(197, 7, 7, 0.171);
+    box-shadow: none;
+    font-size: 1px;
+    margin: 1.5rem;
+
+
+}
+
+.textCava {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: auto;
+    background-color: rgba(227, 240, 240, 0);
+    font-size: large;
+
+    text-align: center;
+    font-size: 18px;
+    line-height: 3.0;
+    letter-spacing: 2.2px;
+    color: #0c0c0c98;
+    width: 85rem;
+    padding-left: 10px;
+}
+
+
+
+.bordesVinos,
+.tituloCava,
+h2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.4rem;
+}

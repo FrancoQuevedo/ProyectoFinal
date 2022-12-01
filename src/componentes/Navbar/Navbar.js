@@ -1,43 +1,30 @@
 import React from "react";
 import "./Navbar.css";
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-/* import Ejemplo from './componentes/Ejemplo/Ejemplo'; */
 import logo from './logo2.jpg'
 
 
 const Menu = () => {
 
-  return ( 
+  return (
     <header >
 
       <Navbar className="navbarEdit" expand="lg"  >
         <Container className="contaninerEdit">
-        <Navbar.Brand className="logoEdit">
-          <div className="logoEdit">
-        <img src= {logo} alt="logo" expand="medium" width='80' height='44'/> 
-        </div>
-        </Navbar.Brand> 
-       
-          {/* <Navbar.Brand href="https://www.clima.com/argentina?gclid=Cj0KCQjwj7CZBhDHARIsAPPWv3ffgD1ZkGq6eftQY7iYkzzhN7E8fGQdGteWR_egArTdbs3PbIkWJj8aAnrfEALw_wcB" target="_blank"> Clima</Navbar.Brand> */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Brand className="logoEdit">
+            <div className="logoEdit">
+              <img src={logo} alt="logo" expand="medium" width='80' height='44' />
+            </div>
+          </Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/"> Home </Nav.Link>
-              {/* <Nav.Link href= "/https://www.google.com.ar/maps" target= "_blank">Link</Nav.Link> */}
               <Nav.Link href='Contacto1' >Contacto</Nav.Link>
-              <Nav.Link href="Ejemplo">Ejemplo</Nav.Link>
-              <Nav.Link href="/Personajes">Personajes</Nav.Link>
-              {/*   <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
+              <Nav.Link href='/Habitaciones' > Habitaciones </Nav.Link>
+              <Nav.Link href="/Gastronomia">Gastronomia</Nav.Link>
+              <Nav.Link href="https://www.google.com.ar/maps/place/Centro+C%C3%ADvico+Bariloche/@-41.1334919,-71.312401,17z/data=!4m12!1m6!3m5!1s0x961a7b72dbb708e1:0xd91b7e92f820aa94!2sCentro+C%C3%ADvico+Bariloche!8m2!3d-41.133496!4d-71.3102123!3m4!1s0x961a7b72dbb708e1:0xd91b7e92f820aa94!8m2!3d-41.133496!4d-71.3102123" target="_blank">Ubicacion</Nav.Link>
+              <Nav.Link href="https://www.clima.com/argentina?gclid=Cj0KCQjwj7CZBhDHARIsAPPWv3ffgD1ZkGq6eftQY7iYkzzhN7E8fGQdGteWR_egArTdbs3PbIkWJj8aAnrfEALw_wcB" target="_blank"> Clima</Nav.Link>
+
             </Nav>
           </Navbar.Collapse>
         </Container>

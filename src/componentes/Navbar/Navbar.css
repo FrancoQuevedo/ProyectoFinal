@@ -8,10 +8,15 @@ padding: 0%;
 
 }
 
+
  .navbarEdit{
     font-weight:bolder;
     background-image: linear-gradient(to  left,#f2f4f7,#f1fafc,#f5eeee0a );
     background-color: rgba(7, 5, 5, 0.274);
     height: auto;
-font-variant-caps: petite-caps;
+
+} 
+.navbarEdit:hover{
+    box-shadow: 7px 10px 20px 1px rgba(8, 8, 8, 0.589) !important;
+    transition: all 0.6s linear;
 }

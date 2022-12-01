@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family:serif;
+}
+
+
+.conteinerHabitacion {
+    background-image: linear-gradient(to  left,#f2f4f7be,#f1fafc,#0a090956 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    margin: 5px;
+    width: auto;
+
+}
+
+
+.textConteiner {
+
+    height: auto;
+    background-color: rgba(227, 240, 240, 0);
+    font-size: large;
+
+    text-align: center;
+    font-size: 16.7px;
+    line-height: 2.3;
+    letter-spacing: 2.5px;
+    color: #0c0c0c98;
+    width: 50rem;
+}

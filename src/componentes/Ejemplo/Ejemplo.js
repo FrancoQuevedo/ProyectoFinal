@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 const Ejemplo = () => {
     let texto = "texto información......"
-    const [nombre, setNombre] = useState('Hermione');
+    const [nombre, setNombre] = useState('Buena');
     const cambiarNombre = () =>{
         setNombre ('Harry')
     }
@@ -26,7 +26,7 @@ const Ejemplo = () => {
 
     return(
         <div>
-        <h2> Ejemplos</h2>
+        <h2> Dejanos tu Puntacion </h2>
 
         <h3> {nombre} </h3>
 

@@ -32,10 +32,10 @@ export default function Carousell() {
           />
           <Carousel.Caption className='imgEdit'>
             
-            <h6>Actividades, Aventuras y Desafios </h6>
-            <h7> -Kayak en el Lago del Desierto- </h7>
-            <p>
-            Una excursión de día, super completa para remar en este fantástico lago de aguas turquesas rodeado de un bosque nativo y maravillosas vistas de los cerros y glaciares.  </p>
+            <h6>Actividades, Aventuras y Desafios
+             -Kayak en el Lago del Desierto-  </h6>
+           {/*  <p>
+            Una excursión de día, super completa para remar en este fantástico lago de aguas turquesas rodeado de un bosque nativo y maravillosas vistas de los cerros y glaciares.  </p> */}
            
           </Carousel.Caption>
         </Carousel.Item>

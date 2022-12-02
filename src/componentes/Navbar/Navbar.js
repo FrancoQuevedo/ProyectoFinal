@@ -10,7 +10,7 @@ const Menu = () => {
     <header >
 
       <Navbar className="navbarEdit" expand="lg"  >
-        <Container className="contaninerEdit">
+        <Container className="menuEdit">
           <Navbar.Brand className="logoEdit">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <div className="logoEdit">

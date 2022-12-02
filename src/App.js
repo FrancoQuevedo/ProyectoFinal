@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Contacto from './componentes/Contacto/Contacto';
 import Navbar from './componentes/Navbar/Navbar';
 import Home from './componentes/Header/Header';
-import Ejemplo from './componentes/Ejemplo/Ejemplo';
+
 import Habitaciones from './componentes/Habitaciones/Habitaciones';
 import Gastronomia from './componentes/Gastronomia/Gastronomia';
 
@@ -33,12 +33,6 @@ function App() {
         <Route exact path="/Gastronomia">
           <Gastronomia />
         </Route>
-
-        <Route exact path="/Ejemplo">
-          <Ejemplo />
-
-        </Route>
-
 
       </Switch>
 

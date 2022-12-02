@@ -8,6 +8,7 @@
     background-image: linear-gradient(to  left,#04070c3a,#f1fafc,#0a090956 );
     width: 85%;
     margin: auto;
+    margin-top: 0.25rem;
     height: auto;
     border: 2.2px solid rgba(17, 17, 16, 0.226);
 
@@ -114,3 +115,64 @@ border-radius: 4px;
     border: 1px solid rgb(235, 220, 220);
     color: rgb(3, 3, 3);
 }
+
+
+/*---------540px max-w @media*/
+@media(max-width:540px) {
+
+    .main{
+           background-color: rgba(44, 117, 47, 0.089);
+           display: block;
+           
+          
+        
+    }
+
+    input{
+        width:13rem;
+       margin-left: 90px;
+    }
+
+    .formularioContainer{
+width:auto;
+background-image: linear-gradient(to  left,#04070c02,#f1fafc11,#0a090918 );
+
+    }
+    label {
+        padding: 2.5px;
+        font-size: 22px;
+display: flex; 
+}
+textarea{
+width: 17.6rem;
+}
+.submit{
+display: flex;
+background-color: rgba(0, 0, 0, 0.658);
+width: 5.5rem;
+}
+.textContainerform p{
+
+
+width:18rem;
+margin-right: 4.6rem;
+font-size: 14.4px;
+
+}
+.errorText{
+margin-left: 0rem;
+
+
+}
+
+
+
+}
+
+   
+
+
+
+
+
+

@@ -31,6 +31,7 @@ const Contacto1 = () => {
       <div className="titleContainer"  >
         <h1>Consultas /Reservas</h1>
       </div>
+
       <main className="main">
         <form className="formRegister" onSubmit={sendEmail}/* {handleSubmit(onSubmit)} */ >
           <div className="editCampos">Nombre: {watch('nombre')}</div>
@@ -75,7 +76,7 @@ const Contacto1 = () => {
           </div>
 
           <div>
-            <label>Mobile number</label>
+            <label>Celular </label>
             <input
               type="tel"
               {...register("MobileNumber", {
@@ -136,7 +137,7 @@ const Contacto1 = () => {
 
           <div className="textContainerform">
             <p> ¿ Ya reservaste? <a href="#">No dudes en Consultarnos.</a></p>
-            <p class="errorText">Si se produce un error al completar el formulario aparecera un mensaje aqui.</p>
+            <p class="errorText">Al completar el formulario aparecera un mensaje aqui.</p>
 
           </div>
 

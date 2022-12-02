@@ -1,32 +1,52 @@
 * {
     box-sizing: border-box;
     font-family:serif;
+ 
 }
 
 .contenedorCarousel img {
     height: 83.5vh;
     width: auto;
-    border-top: 0.25rem solid rgba(205, 216, 216, 0.322);
-    border-bottom: 0.30rem solid rgba(31, 30, 30, 0.11);
+    border-top: 0.10rem solid rgb(255, 255, 255);
+    border-bottom: 0.10rem solid rgba(197, 195, 195, 0.884);
 
 }
 
-.carousel-caption p,
+.carousel-caption 
 h5 {
     font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgba(208, 214, 235, 0.116);
-    color: rgba(252, 245, 245, 0.918);
+    background-color:transparent;
+    color: rgba(253, 237, 237, 0.952);
     font-weight: bold;
     font-size: 23Px;
 }
- .imgEit p ,h6 ,h7 {
-font-size: 22px;
-color:rgb(255, 255, 255);
-font-weight: bold;
-font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+
+/*---------900px max-w @media*/
+@media(max-width:900px) {
+    .imgEit p ,h6  {
+        font-size: 18px;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        h6{
+display: flex;
+width: 40rem;
+        }
+    }
+    /*---------550px max-w @media*/
+@media(max-width:550px) {
+    h6{
+        display: flex;
+        width: 20rem;
+        margin-left: 0.1px;
+        background-color: rgba(208, 214, 235, 0);
+    
+                }
+    
+
 }
-.imgEdit{
- background-color: rgba(0, 0, 0, 0.089);
- width: 60rem;
- text-align: center;
-} 

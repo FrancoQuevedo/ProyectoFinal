@@ -74,7 +74,7 @@ const cards = [
 function Cards() {
   return (
 
-    <div className="container "   >
+    <div className="container"   >
         <div className='row'  >
         {
         cards.map((card) => (

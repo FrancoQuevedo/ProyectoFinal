@@ -4,7 +4,7 @@ import "./Card.css";
 
 function CardC ({title,imagSrc,text}){
   return (
-    <div className="card text-center bg-white">
+    <div className="card text-center ">
     <img src={imagSrc} alt="img"/> 
 
     <div className="card-body text-black ">

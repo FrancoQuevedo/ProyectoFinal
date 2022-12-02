@@ -1,6 +1,6 @@
 import React from 'react';
 import CarouselGastronomia from '../GastronomiaCarousel/GastrnomiaCarousel';
-import Portada from './img/portadaG.jpg';
+/* import Portada from './img/portadaN.jpg'; */
 import { NavLink } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import menu from './img/menu.jpg';
@@ -11,8 +11,8 @@ const Gastronomia = () => {
     return (
         <header>
             <div className='conteinerGastronomia' >
-                <div className="conteiner">
-                    <img src={Portada} alt="Foto portada " />
+                <div className="imagenPortada">
+                    <img src={'https://images.unsplash.com/photo-1529060532150-a0c935a6d6e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNhYmElMjBkZSUyMHZpbm9zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'}/* {Portada} */alt="Foto portada " />
                 </div>
                 <h1> Gastronomia El Viento </h1>
 

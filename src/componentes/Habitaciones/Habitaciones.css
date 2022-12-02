@@ -30,3 +30,14 @@
     color: #0c0c0c98;
     width: 50rem;
 }
+
+
+/*--------- 1010px max-w @media*/
+
+@media(max-width:1010px) {
+
+    .textConteiner{
+width: auto; 
+    }
+
+}

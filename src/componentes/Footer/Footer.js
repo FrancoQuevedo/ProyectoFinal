@@ -25,7 +25,7 @@ const Footerr = () => {
           <div className="col">
           <h4>Encontranos</h4>
             <div className="list-unstyled" >
-              <NavLink   to={'https://www.tvpublica.com.ar/vivo/'}  target="_blank"  className="list-unstyled"  style={{fontSize:"0.9rem"  ,margin:"5px"}}  > <img  src= {Whats} alt="logo" width='32'/></NavLink>
+              <NavLink   to= "https://www.tvpublica.com.ar/vivo/"  target="_blank"  className="list-unstyled"  style={{fontSize:"0.9rem"  ,margin:"5px"}}  > <img  src= {Whats} alt="logo" width='32'/></NavLink>
 
               <NavLink   className="list-unstyled" style={{fontSize:"0.9rem"  ,margin:"5px"}}to='/'><img src= {Face} alt="logo" width='32' /></NavLink>
 

@@ -46,15 +46,19 @@ const Footerr = () => {
 
            {/* Column4 */}
            <div className="col">
+       
         <CustomButton/>
+    
           </div>
         </div>
         <hr />
 
         <div className="row">
           <p className="col-sm">
+   
             &copy;{new Date().getFullYear()} ' Los Andes Hotel ' | Some rights reserved | Terms of Service | Privacy
           </p>
+          
         </div>
       </div>
     </div>

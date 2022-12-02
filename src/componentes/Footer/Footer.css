@@ -32,7 +32,7 @@ li {
 
 
 /*---------570px max-w @media*/
-@media(max-width:570px) {
+@media(max-width:600px) {
 
     .main-footer{
      
@@ -47,3 +47,14 @@ background-color: black;
 } */
 
 }
+
+@media(max-width:483px) {
+
+    .main-footer{
+     
+       margin-left: 6rem;
+    }
+
+
+}
+

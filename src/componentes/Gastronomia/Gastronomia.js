@@ -11,9 +11,9 @@ const Gastronomia = () => {
     return (
         <header>
             <div className='conteinerGastronomia' >
-                <div className="imagenPortada">
-                    <img src={'https://images.unsplash.com/photo-1529060532150-a0c935a6d6e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNhYmElMjBkZSUyMHZpbm9zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'}/* {Portada} */alt="Foto portada " />
-                </div>
+                {/* <div className="imagenPortada">
+                    <img src={'https://images.unsplash.com/photo-1529060532150-a0c935a6d6e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNhYmElMjBkZSUyMHZpbm9zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'} {Portada} alt="Foto portada " />
+                </div> */}
                 <h1> Gastronomia El Viento </h1>
 
                 <div className='textConteiner'>
